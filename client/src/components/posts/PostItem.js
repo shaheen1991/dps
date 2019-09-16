@@ -1,13 +1,10 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 import Moment from 'react-moment';
 import { connect } from 'react-redux';
 import { deletePost } from '../../actions/post';
 
 const PostItem = ({
-  addLike,
-  removeLike,
   deletePost,
   auth,
   post: { _id, text, name, user, Incident_Type, Call_Type, Disposition, Location, Location_Type, person_last_name, person_first_name, officer_last_name, officer_fisrt_name, time, date },
@@ -19,6 +16,7 @@ const PostItem = ({
         <h4>{_id}</h4>
       </Link> */}
       <h4>{_id}</h4>
+      <p className='my-1'> Created by: {name}</p>
     </div>
     <div>
       <p className='my-1'> Incident Type:{Incident_Type}</p>

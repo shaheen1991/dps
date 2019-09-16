@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import Spinner from '../layout/Spinner';
 import PostItem from '../posts/PostItem';
-import PostForm from '../posts/PostForm';
 import { getPosts } from '../../actions/post';
 
 const Posts = ({ getPosts, post: { posts, loading } }) => {
