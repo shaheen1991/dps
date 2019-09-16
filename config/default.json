@@ -1,5 +1,5 @@
 {
-  "mongoURI": "mongodb+srv://dps:Dps2019@cluster0-m4nsf.mongodb.net/test?retryWrites=true&w=majority",
+  "mongoURI": "mongodb://dps:Dps2019@ds311968.mlab.com:11968/heroku_j032z9ph",
   "jwtSecret": "secret",
   "githubClientId": "",
   "githubSecret": ""
