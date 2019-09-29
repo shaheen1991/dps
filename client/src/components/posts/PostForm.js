@@ -1,5 +1,5 @@
 import React, { useState, Fragment } from 'react';
-import { Link, withRouter, Redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { addPost } from '../../actions/post';

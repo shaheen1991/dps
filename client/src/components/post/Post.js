@@ -9,6 +9,7 @@ import { getPost } from '../../actions/post';
 const Post = ({ getPost, post: { post, loading }, match }) => {
   useEffect(() => {
     getPost(match.params.id);
+    // eslint-disable-next-line
   }, [getPost]);
 
   return loading || post === null ? (

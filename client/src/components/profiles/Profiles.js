@@ -15,7 +15,7 @@ const Posts = ({ getPosts, post: { posts, loading } }) => {
     <Spinner />
   ) : (
     <Fragment>
-      <h1 className='large text-primary'>Investegation Files</h1>
+      <h1 className='large text-primary'>Investigation Files</h1>
       
       <div className='posts'>
         {posts.map(post => (
