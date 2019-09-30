@@ -126,7 +126,7 @@ const PostForm = ({ addPost }) => {
 
         <div className='form-group'>
         <small className='form-text'>
-            *Persons last name:
+            *Person's lastname:
           </small>
           <input
             type='text'
@@ -139,7 +139,7 @@ const PostForm = ({ addPost }) => {
 
         <div className='form-group'>
         <small className='form-text'>
-            *Persons first name:
+            *Person's firstname:
           </small>
           <input
             type='text'
@@ -152,7 +152,7 @@ const PostForm = ({ addPost }) => {
 
         <div className='form-group'>
         <small className='form-text'>
-         * Officers last name:
+         * Officer's lastname:
           </small>
           <input
             type='text'
@@ -165,7 +165,7 @@ const PostForm = ({ addPost }) => {
 
         <div className='form-group'>
         <small className='form-text'>
-          *Officers fisrt name:
+          *Officer's fisrtname:
           </small>
           <input
             type='text'
@@ -179,7 +179,7 @@ const PostForm = ({ addPost }) => {
 
 
         <small className='form-text'>
-          *Write inceident description:
+          *Write incedint description:
           </small>
         <textarea
           name='text'
@@ -193,7 +193,7 @@ const PostForm = ({ addPost }) => {
 
 <div className='form-group'>
         <small className='form-text'>
-          *Time of incident:
+          *Time of incedint:
           </small>
           <input
             type='text'
@@ -207,7 +207,7 @@ const PostForm = ({ addPost }) => {
 
         <div className='form-group'>
         <small className='form-text'>
-          *Date of incident:
+          *Date of incedint:
           </small>
           <input
             type='text'
