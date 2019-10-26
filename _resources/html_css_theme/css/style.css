@@ -454,6 +454,18 @@ button {
 }
 
 /* Posts Page */
+.row:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  border: 1px solid red;
+}
+
 .post-form .post-form-header {
   background: var(--primary-color);
   padding: 0.5rem;

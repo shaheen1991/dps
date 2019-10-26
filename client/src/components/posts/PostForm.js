@@ -96,8 +96,9 @@ const PostForm = ({ addPost }) => {
             <option value='No Prosecution'>No Prosecution</option>
           </select>
         </div>
-
-        <div className='form-group'>
+         
+        <div className="row"> 
+        <div  className='form-group, column'>
         <small className='form-text'>
             *Location of Incident
           </small>
@@ -110,7 +111,8 @@ const PostForm = ({ addPost }) => {
           />
         </div>
 
-        <div className='form-group'>
+        
+        <div className='form-group, column'>
         <small className='form-text'>
         *Location Type:
           </small>
@@ -123,6 +125,7 @@ const PostForm = ({ addPost }) => {
             <option value='Rural Address'>Rural Address</option>
           </select>
         </div>
+        </div> 
 
         <div className='form-group'>
         <small className='form-text'>

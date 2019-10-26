@@ -7,6 +7,8 @@ import PostItem from '../posts/PostItem';
 // import PostForm from '../posts/PostForm';
 import { getPosts } from '../../actions/post';
 
+
+
 const Posts = ({ getPosts, post: { posts, loading } }) => {
   useEffect(() => {
     getPosts();
@@ -17,6 +19,8 @@ const Posts = ({ getPosts, post: { posts, loading } }) => {
   ) : (
     <Fragment>
       <h1 className='large text-primary'>Investegation Files</h1>
+
+     
       
       <div className='posts'>
         {posts.map(post => (
